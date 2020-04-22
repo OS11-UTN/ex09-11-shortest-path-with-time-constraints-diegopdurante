@@ -491,5 +491,5 @@ def set_value_on_node(matrix_to_fill, node_names, name_from, value, verbose = Fa
         print("Set ", node_names[node_from], " - Value: ", value)
 
 def get_new_cost(cost, t, lamb):
-    c_new = np.zeros(cost.shape)
+    # c_new = np.zeros(cost.shape)
     return cost + lamb*t
